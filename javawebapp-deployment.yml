@@ -3,7 +3,7 @@ kind: ReplicationController
 metadata:
   labels:
     name: javawebapp
-  name: java-controller
+  name: javawebapp
 spec:
   replicas: 1
   template:
@@ -12,7 +12,7 @@ spec:
         name: javawebapp
     spec:
       containers:
-      - image: ravi3284/java-web-app
+      - image: ravi3284/java-web-app:1
         name: javawebapp
         ports:
         - name: javawebapp
