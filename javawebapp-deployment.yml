@@ -12,7 +12,7 @@ spec:
         name: javawebapp
     spec:
       containers:
-      - image: ravi3284/javawebapp:${buildNumber}
+      - image: ravi3284/javawebapp:1
         name: javawebapp
         ports:
         - name: javawebapp
